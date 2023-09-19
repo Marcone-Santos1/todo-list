@@ -1,0 +1,53 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #363b65;
+    /*margin-bottom: 10px;*/
+    cursor: pointer;
+}
+
+.item span {
+    width: 100%;
+    color: white;
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-align: start;
+}
+
+.item.completo {
+    display: flex;
+    justify-content: space-between;
+    background: #1e1f2e;
+    border: none;
+    /*margin-bottom: 10px;*/
+    cursor: pointer;
+    opacity: .7;
+}
+
+.item.completo span {
+    width: 100%;
+    color: #4d506e;
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-decoration: line-through;
+    text-align: start;
+}
+
+.item:hover {
+    background: #151627;
+}
+
+button.del {
+    background: #4d506e;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    opacity: .8;
+}
+
+button.del:hover {
+    background: #ff004c;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
